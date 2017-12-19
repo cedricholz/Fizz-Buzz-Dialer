@@ -8,7 +8,7 @@ It also keeps a log of the calls made and when the replay button is pressed, the
 
 # To run locally on Windows
 
-Create an account on twilio and get a phone number. Put the number in the variable my_twilio_number in flask.py
+Create an account on twilio and get a phone number. Put the number in the variable my_twilio_number in flask_app.py
 
 Change my_twilio_number in flask_app to your number twilio number.
 
