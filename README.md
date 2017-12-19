@@ -8,11 +8,11 @@ It also keeps a log of the calls made and when the replay button is pressed, the
 
 # To run locally on Windows
 
-Create an account on twilio and get a phone number. Put the number in the variable my_twilio_number in flask_app.py
+Create an account on twilio, https://www.twilio.com, and get a phone number. Put the number in the variable my_twilio_number in flask_app.py.
 
-Change my_twilio_number in flask_app to your number twilio number.
+Change my_twilio_number in flask_app.py to your number twilio number.
 
-From your twilio Dashboard get your ACCOUNT SID and AUTH_TOKEN, and create a file with them called api_keys.json in the main folder.
+From your twilio Dashboard get your ACCOUNT SID and AUTH TOKEN, and create a file with them called api_keys.json in the main folder.
 
 Make sure it is of this form.
 
@@ -23,13 +23,13 @@ Make sure it is of this form.
 }
 ```
 
-Install Python and Gitbash.
+Install Python3 and Gitbash.
 
-In the Gitbash terminal install flask with the command, pip3 install flask.
+In the Gitbash terminal install flask with the command, "pip3 install flask".
 
-Then move to the directory of the Fizz-Buzz-Dialer
+Move to the directory of the Fizz-Buzz-Dialer.
 
-Run the app with the command, python flask_app.py
+Run the app with the command, "python flask_app.py".
 
 Go to http://127.0.0.1:5000/ to view the application.
 
