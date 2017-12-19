@@ -68,8 +68,8 @@ def index():
     Gets the calltimes from the history json file and displays the webpage with
     the histories in list form.
     """
-    callTimes = utils.file_to_json("call_history.json")['history']
-    return render_template("index.html", callTimes=callTimes)
+    call_times = utils.file_to_json("call_history.json")['history']
+    return render_template("index.html", call_times=call_times)
 
 
 def make_outgoing_call(phonenumber, redirect_url):
@@ -82,7 +82,6 @@ def make_outgoing_call(phonenumber, redirect_url):
         .create(to="+" + phonenumber,
                 from_=my_twilio_number,
                 url=redirect_url)
-    print(call.sid)
 
 
 @app.route('/', methods=['POST'])

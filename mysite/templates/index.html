@@ -40,7 +40,7 @@
 
             <ul id="call_history">
 
-            {% for call in callTimes %}
+            {% for call in call_times %}
 
                 <li><a href="/">{{call[0]}} </a>
                 <form action="/replay/{{call[1]}}/{{call[2]}}" method="post">
