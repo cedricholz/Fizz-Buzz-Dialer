@@ -13,13 +13,17 @@ Change my_twilio_number in flask_app to your number twilio number.
 
 From your twilio Dashboard get your ACCOUNT SID and AUTH_TOKEN, and create a file with them called api_keys.json in the main folder.
 
-Make sure it looks similar to this.
+Make sure it is of this form.
+'''
 {
   "account_sid": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
   "auth_token": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 }
+'''
 
-Install Python and Gitbash. In the terminal install flask with the command, pip3 install flask.
+Install Python and Gitbash.
+
+In the Gitbash terminal install flask with the command, pip3 install flask.
 
 Then move to the directory of the Fizz-Buzz-Dialer
 
